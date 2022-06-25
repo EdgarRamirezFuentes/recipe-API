@@ -33,3 +33,11 @@ services:
 
 volumes:
   dev-db-data:
+
+# To run the app:
+# docker-compose up -d
+# To stop the app:
+# docker-compose stop
+# To delete the database data:
+# docker-compose down
+# docker volume rm <data-name>

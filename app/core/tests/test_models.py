@@ -45,5 +45,5 @@ class ModelTests(TestCase):
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)
 
-#Command to run tests using docker-compose:
+# Command to run tests using docker-compose:
 # docker-compose run --rm app sh -c "python manage.py test"
